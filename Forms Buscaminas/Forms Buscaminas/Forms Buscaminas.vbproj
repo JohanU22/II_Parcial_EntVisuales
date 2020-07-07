@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6A695319-C778-4FAD-AB3D-3A723217740E}</ProjectGuid>
+    <ProjectGuid>{9182DD13-D862-45C9-9EAC-8E945CBCD345}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>MenuPrincipal.My.MyApplication</StartupObject>
-    <RootNamespace>MenuPrincipal</RootNamespace>
-    <AssemblyName>MenuPrincipal</AssemblyName>
+    <StartupObject>Forms_Buscaminas.My.MyApplication</StartupObject>
+    <RootNamespace>Forms_Buscaminas</RootNamespace>
+    <AssemblyName>Forms Buscaminas</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>MenuPrincipal.xml</DocumentationFile>
+    <DocumentationFile>Forms Buscaminas.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>MenuPrincipal.xml</DocumentationFile>
+    <DocumentationFile>Forms Buscaminas.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -80,30 +80,6 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormArray_Vectores.Designer.vb">
-      <DependentUpon>FormArray_Vectores.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormArray_Vectores.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormLibretaAhorro.Designer.vb">
-      <DependentUpon>FormLibretaAhorro.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormLibretaAhorro.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormMenuTareas.Designer.vb">
-      <DependentUpon>FormMenuTareas.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormMenuTareas.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_BolsaSolidaria.Designer.vb">
-      <DependentUpon>Form_BolsaSolidaria.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form_BolsaSolidaria.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -124,18 +100,6 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormArray_Vectores.resx">
-      <DependentUpon>FormArray_Vectores.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormLibretaAhorro.resx">
-      <DependentUpon>FormLibretaAhorro.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormMenuTareas.resx">
-      <DependentUpon>FormMenuTareas.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_BolsaSolidaria.resx">
-      <DependentUpon>Form_BolsaSolidaria.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -154,45 +118,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cerrar123.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\class.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\expandir123.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\homework.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\minimizar123.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\restaurar123.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\trabajo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\menu123.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\class1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\examen1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\examen.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\examOR.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\exam.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

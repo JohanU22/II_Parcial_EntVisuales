@@ -13,5 +13,20 @@
 
     Private Sub btnArreglos_Click(sender As Object, e As EventArgs) Handles btnArreglos.Click
         abrirFormulario(New FormArray_Vectores())
+        btnArreglos.Hide()
+        btnLibretaAhorros.Hide()
+
+    End Sub
+
+    Private Sub btnLibretaAhorros_Click(sender As Object, e As EventArgs) Handles btnLibretaAhorros.Click
+        abrirFormulario(New FormLibretaAhorro())
+        btnArreglos.Hide()
+        btnLibretaAhorros.Hide()
+    End Sub
+
+    Private Sub btnBolsaSolidaria_Click(sender As Object, e As EventArgs) Handles btnBolsaSolidaria.Click
+        abrirFormulario(New Form_BolsaSolidaria())
+        btnArreglos.Hide()
+        btnLibretaAhorros.Hide()
     End Sub
 End Class
