@@ -81,7 +81,7 @@ Public Class FormPrincipal
     End Sub
 
     Private Sub btnEjClases_Click(sender As Object, e As EventArgs) Handles btnEjClases.Click
-
+        abrirFormulario(New FormMenu_Clase())
     End Sub
 
 
